@@ -1,3 +1,62 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl             = "https://jianyuan.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Jian Yuan Lee"
+title               = "Jian Yuan Lee"
+pygmentsuseclasses  = true
+pluralizelisttitles = false
+googleAnalytics     = "UA-46071618-2"
+
+# [permalinks]
+# blog  = "blog/:slug/"
+
+# [[menu.main]]
+# name                   = "Blog"
+# weight                 = -120
+# identifier             = "blog"
+# url                    = "/blog/"
+
+# [[menu.main]]
+# name                   = "About"
+# weight                 = -110
+# identifier             = "about"
+# url                    = "/about/"
+
+# [[menu.main]]
+# name                   = "Code"
+# weight                 = -100
+# identifier             = "code"
+# url                    = "/code/"
+
+[params]
+include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+latestpostscount       = 0                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Jian Yuan Lee"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Don't panic"
+email                  = "jianyuan@gmail.com"
+extracssfiles          = [ "/css/override.css" ]
+faviconfile            = "img/leaf.ico"
+github                 = "//github.com/jianyuan"
+instagram              = "//instagram.com/jianyuan"
+px500                  = "//500px.com/jianyuan"
+lang                   = "en"
+linkedin               = "//linkedin.com/in/jianyuanlee"
+noshowreadtime         = false
+selfintro              = "Full-stack platform engineer and architect specializing in distributed systems and cloud infrastructure."
+twitter                = "//twitter.com/jyuan"
+
+highlightjs            = true
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+# highlightjsStyle     = "darcula"
+
+avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
